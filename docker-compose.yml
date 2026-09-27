@@ -5,7 +5,7 @@ services:
     container_name: workers-ai2api
     restart: unless-stopped
     # 该网络环境到 Cloudflare 的直连被墙。用 host 网络让容器共享宿主网络命名空间，
-    # 从而复用宿主机的出网路径(含透明代理/TUN)与 DNS，无需在容器里单独配代理。
+    # 从而复用宿主机的出网路径，无需在容器里单独配代理。
     network_mode: host
     environment:
       # 必填：管理员面板密码。不设则服务拒绝访问。
