@@ -39,8 +39,7 @@ ADMIN_PASSWORD='你的管理员密码' docker compose up -d --build
 
 访问 `http://localhost:8080`，用管理员密码登录即可。
 
-> WSL2 / 国内网络提示：到 Cloudflare 的直连常被阻断，`docker-compose.yml` 已默认使用 `network_mode: host`，
-> 容器复用宿主机的出网路径。若宿主机本身需要代理才能访问 CF，请确保宿主机代理常开。
+> `docker-compose.yml` 已默认使用 `network_mode: host`
 
 ### 📦 Cloudflare Pages 部署
 
