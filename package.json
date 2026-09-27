@@ -1,0 +1,14 @@
+{
+  "name": "neurongate",
+  "version": "1.0.0",
+  "description": "NeuronGate · Cloudflare Workers AI 网关（Docker/Node 运行时，OpenAI 兼容）",
+  "type": "module",
+  "private": true,
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

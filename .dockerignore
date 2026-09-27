@@ -1,0 +1,13 @@
+.git
+.github
+node_modules
+.wrangler
+.dev.vars
+*.log
+img
+*.md
+wrangler.toml
+.gitignore
+Dockerfile
+docker-compose.yml
+data

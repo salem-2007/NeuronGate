@@ -1,0 +1,11 @@
+name = "neurongate"
+main = "_worker.js"
+compatibility_date = "2026-06-30"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "your_kv_namespace_id" # 部署时替换为你自己的 KV Namespace ID（见 README）
+
+[vars]
+# ADMIN_PASSWORD = "your_admin_password" # 管理员密码，按需填写；不设则面板拒绝访问
+# CUSTOM_MODEL_MAP = "{}" # 可选：自定义模型映射的 JSON 字符串
